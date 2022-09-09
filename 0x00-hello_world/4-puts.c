@@ -10,6 +10,6 @@ int main(void)
 {
 char Mystr[] = "Programming is like building a multilingual puzzle\n";
 
-puts(Mystr);
+puts(stderr, Mystr);
 return (0);
 }
