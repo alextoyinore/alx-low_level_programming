@@ -17,10 +17,11 @@ int main(void)
 	{
 		putchar(n);
 		
-		putchar(44);
-
 		if (n != 57)
+		{
+			putchar(44);
 			putchar(32);
+		}
 		
 		n = n + 1;
 	}
