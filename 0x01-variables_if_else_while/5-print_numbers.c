@@ -15,7 +15,7 @@ int main(void)
 
 	while (n < 10)
 	{
-		print(n);
+		printf(n);
 		n = n + 1;
 	}
 
