@@ -11,7 +11,7 @@ int main(void)
 {
 	int n;
 
-	n = 123;
+	n = 122;
 
 	while (n > 96)
 	{
