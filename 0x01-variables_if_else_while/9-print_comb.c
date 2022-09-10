@@ -16,8 +16,12 @@ int main(void)
 	while (n < 58)
 	{
 		putchar(n);
+		
 		putchar(44);
-		putchar(32);
+
+		if (n != 57)
+			putchar(32);
+		
 		n = n + 1;
 	}
 
