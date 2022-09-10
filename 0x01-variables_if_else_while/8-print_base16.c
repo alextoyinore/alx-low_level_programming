@@ -12,7 +12,7 @@ int main(void)
 	int n;
 	int m;
 
-	n = 0;
+	n = 48;
 	m = 97;
 
 	while (n < 58)
@@ -21,7 +21,7 @@ int main(void)
 		n = n + 1;
 	}
 
-	while (m < 105)
+	while (m < 103)
 	{
 		putchar(m);
 		m = m + 1;
