@@ -23,15 +23,15 @@ int main(void)
 			{
 				putchar(m);
 				putchar(n);
+
+				if (m != 57)
+				{
+					putchar(44);
+					putchar(32);
+				}
 			}
 
 			n = n + 1;
-
-			if (m != 57)
-			{
-				putchar(44);
-				putchar(32);
-			}
 		}
 
 		m = m + 1;
