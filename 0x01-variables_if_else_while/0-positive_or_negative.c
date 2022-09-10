@@ -1,7 +1,5 @@
 #include <stdlib.h>
 #include <time.h>
-#include <rand.h>
-#include <srand.h>
 #include <stdio.h>
 
 /**
