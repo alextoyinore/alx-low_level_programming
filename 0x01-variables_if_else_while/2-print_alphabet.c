@@ -13,11 +13,13 @@ int main(void)
 
 	n = 97;
 
-	while(n < 123)
+	while (n < 123)
 	{
 		putchar(n);
 		n = n + 1;
 	}
+
+	putchar(10);
 
 	return (0);
 }
