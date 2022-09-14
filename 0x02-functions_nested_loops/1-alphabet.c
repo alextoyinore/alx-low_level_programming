@@ -1,13 +1,19 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - Prints the lowercase letters of the english alphabet
  *
- * Return: Always 0 (Success)
+ * Return: void 
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	int i;
+
+	for(i='a'; i <= 'z'; i++)
+	{
+		_putchar(i);
+	}
+
+	_putchar('\n');
 }
