@@ -2,6 +2,7 @@
 
 /**
  * _abs - Prints the absolute value of an integer
+ * @n: Parameter to be passed in
  *
  * Return: int
  */
