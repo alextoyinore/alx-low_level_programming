@@ -16,10 +16,10 @@ int more_numbers(void)
 		{
 			if (j >= 10)
 			{
-				_putchar((j / 10) + '0');
+				putchar((j / 10) + '0');
 			}
-			_putchar((j % 10) + '0');
+			putchar((j % 10) + '0');
 		}
-		_putchar('\n');
+		putchar('\n');
 	}
 }
