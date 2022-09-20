@@ -9,7 +9,8 @@
 
 void _puts(char *str)
 {
-	int i; i = 0;
+	int i; 
+	i = 0;
 	char charAtPosition;
 	charAtPosition = str[0];
 
@@ -17,6 +18,7 @@ void _puts(char *str)
 	{
 		_putchar(str[i]);
 		charAtPosition = str[i++];
+		i++;
 	}
 
 	_putchar('\n');

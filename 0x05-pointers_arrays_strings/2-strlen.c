@@ -13,7 +13,8 @@ int _strlen(char *s)
 	int length;
 	char charAtPosition = s[0];
 
-	i = 1; length = 0;
+	i = 1;
+	length = 0;
 
 	while (charAtPosition != '\0')
 	{
