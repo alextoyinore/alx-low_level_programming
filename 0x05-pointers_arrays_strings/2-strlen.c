@@ -22,6 +22,6 @@ int _strlen(char *s)
 		charAtPosition = s[i++];
 	}
 
-	return length;
+	return (length);
 }
 
