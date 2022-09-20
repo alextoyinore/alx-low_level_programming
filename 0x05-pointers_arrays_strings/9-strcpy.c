@@ -8,7 +8,7 @@
  * Return: destination
  */
 
-char _strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int i;
 
@@ -27,7 +27,7 @@ char _strcpy(char *dest, char *src)
 	{
 		if(j == (len - 1))
 		{
-			desc[j] = '\0';
+			dest[j] = '\0';
 		}
 		else
 		{
