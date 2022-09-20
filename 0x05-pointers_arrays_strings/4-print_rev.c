@@ -10,6 +10,7 @@
 void print_rev(char *s)
 {
 	int strLength;
+
 	int a, b;
 
 	strLength = 0;
@@ -19,9 +20,9 @@ void print_rev(char *s)
 		strLength++;
 	}
 
-	b = 0;
+	b = strLength - 1;
 
-	while (b != (strLength - 1))
+	while (b >= 0)
 	{
 		_putchar(s[b]);
 		b--;
