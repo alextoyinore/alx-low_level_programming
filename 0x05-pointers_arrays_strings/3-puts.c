@@ -13,7 +13,7 @@ void _puts(char *str)
 	char charAtPosition;
 	charAtPosition = str[0];
 
-	while (charAtPosition[i] != '\0')
+	while (charAtPosition != '\0')
 	{
 		_putchar(str[i]);
 		charAtPosition = str[i++];
