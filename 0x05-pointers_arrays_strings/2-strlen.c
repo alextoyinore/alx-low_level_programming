@@ -11,7 +11,7 @@ int _strlen(char *s)
 {
 	int i;
 	int length;
-	charAtPosition = s[0];
+	char charAtPosition = s[0];
 
 	i = 1; length = 0;
 
