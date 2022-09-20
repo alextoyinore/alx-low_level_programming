@@ -3,13 +3,13 @@
 
 /**
  * print_to_98 - prints from any natural number to 98
- *
+ * @n: parameter
  * Return: void
  */
 
 void print_to_98(int n)
 {
-	
+
 	if (n < 98)
 	{
 		while (n <= 98)
