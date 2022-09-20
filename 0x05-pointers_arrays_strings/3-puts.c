@@ -10,7 +10,8 @@
 void _puts(char *str)
 {
 	int i; i = 0;
-	char charAtPosition = str[0];
+	char charAtPosition;
+	charAtPosition = str[0];
 
 	while (charAtPosition[i] != '\0')
 	{
