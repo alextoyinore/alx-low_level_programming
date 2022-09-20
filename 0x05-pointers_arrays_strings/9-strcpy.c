@@ -27,7 +27,7 @@ char _strcpy(char *dest, char *src)
 	{
 		if(j == (len - 1))
 		{
-			dest[j] = '\0';
+			desc[j] = '\0';
 		}
 		else
 		{
