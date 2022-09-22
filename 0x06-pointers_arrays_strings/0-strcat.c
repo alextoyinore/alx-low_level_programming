@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _strcat - concatenates two arrays
+ * *_strcat - concatenates two arrays
  * @dest: destination array parameter
  * @src: source array parameter
  *
- * Return: destination araary
+ * Return: dest
  */
 
 char *_strcat(char *dest, char *src)
@@ -42,3 +42,4 @@ char *_strcat(char *dest, char *src)
 
 	return (dest);
 }
+
