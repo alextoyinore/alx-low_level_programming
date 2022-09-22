@@ -17,7 +17,7 @@ void reverse_array(int *a, int n)
 		if ((n - i) == n)
 			continue;
 
-		_putchar(a[n-i])
+		_putchar(a[n-i]);
 	}
 
 	return (0);
