@@ -9,7 +9,7 @@
  * Return: description
  */
 
-char *_strncat(char *dest, *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
 
@@ -26,7 +26,7 @@ char *_strncat(char *dest, *src, int n)
 	{
 		dest[i + j] = *src++;
 		if (src[j] == '\0')
-			j = n;
+			break;
 		j++;
 	}
 
